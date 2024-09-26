@@ -1,0 +1,6 @@
+/etc/nixos
+/home/moose/.config/bspwm
+/home/moose/.config/nvim
+/home/moose/.config/rofi
+/home/moose/.config/dunst
+/home/moose/.config/sxhkd
