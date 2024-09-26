@@ -2,7 +2,7 @@
 
 INDEX_FILE="index"
 SAVE_DIR="save"
-DATE=$(date +"%Y-%m-%d_%H-%M-%S") 
+DATE=$(date +"%Y-%m-%d_%H:%M:%S  %z") 
 
 rm -rf $SAVE_DIR
 mkdir -p $SAVE_DIR
