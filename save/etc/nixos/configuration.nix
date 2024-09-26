@@ -159,6 +159,7 @@
 
     # bluetooth
     blueman
+    bluez
 
     # media
     pwvucontrol
