@@ -14,7 +14,7 @@ for dest in $(cat $INDEX_FILE); do
   fi
 done
 
-find /path/to/search -type d -name ".git" -exec rm -rf {} +
+find "$(pwd)/save" -type d -name ".git" -exec rm -rf {} +
 
 git diff
 
