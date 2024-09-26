@@ -17,7 +17,7 @@ done
 git diff
 
 read -p "do you want to save changes? [Y/N]: " answer
-if [ ! $answer = "Y" ]; then
+if [[ ! $answer = "Y" ]]; then
   exit 0
 fi
 
