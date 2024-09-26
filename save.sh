@@ -24,6 +24,3 @@ fi
 git add .
 git commit -m "Backup on $DATE"
 git push origin main
-
-echo "Backup complete and changes pushed!"
-
