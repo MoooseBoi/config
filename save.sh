@@ -14,6 +14,8 @@ for dest in $(cat $INDEX_FILE); do
   fi
 done
 
+find /path/to/search -type d -name ".git" -exec rm -rf {} +
+
 git diff
 
 read -p "do you want to save changes? [Y/N]: " answer
