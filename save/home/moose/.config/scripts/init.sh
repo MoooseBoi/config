@@ -5,7 +5,7 @@
 
 # daemon apps
 nm-applet &
-# blueman-applet &
+blueman-applet &
 sxhkd &
 dunst &
 picom &
